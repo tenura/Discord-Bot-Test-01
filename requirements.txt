@@ -1,4 +1,5 @@
 async-timeout==3.0.1
+boto==2.49.0
 discord==1.7.3
 discord-components==2.1.2
 discord-ui==5.1.6
