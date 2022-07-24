@@ -82,8 +82,6 @@ ply==3.11
 prompt-toolkit==3.0.30
 psutil==5.9.1
 pure-eval==0.2.2
-PyAutoGUI==0.9.53
-PyAutoIt==0.6.5
 pycoingecko==2.2.0
 pycord==0.1.1
 pycparser==2.21
