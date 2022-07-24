@@ -139,9 +139,6 @@ wcwidth==0.2.5
 websockets==3.4
 Werkzeug==2.0.1
 whichcraft==0.6.1
-win10toast==0.9
-win10toast-click==0.1.2
-win10toast-persist==0.10.1
 yarl==1.7.2
 youtube-dl==2021.12.17
 zope.event==4.5.0
