@@ -28,12 +28,12 @@ from boto.s3.connection import S3Connection
 from discord import FFmpegPCMAudio
 from os import system
 
-Bot_Token = S3Connection(os.environ['Bot_Token'])
-Crypto_Token = S3Connection(os.environ['Crypto_Token'])
-Gif_Token = S3Connection(os.environ['Gif_Token'])
-Sticker_Token = S3Connection(os.environ['Sticker_Token'])
-Photo_Client_Id = S3Connection(os.environ['Photo_Client_Id'])
-Nft_Token = S3Connection(os.environ['Nft_Token'])
+Bot_Token = os.environ['Bot_Token']
+Crypto_Token = (os.environ['Crypto_Token'])
+Gif_Token = (os.environ['Gif_Token'])
+Sticker_Token = (os.environ['Sticker_Token'])
+Photo_Client_Id = (os.environ['Photo_Client_Id'])
+Nft_Token = (os.environ['Nft_Token'])
 
 bot = Bot(command_prefix="$")
 DiscordComponents(bot)
