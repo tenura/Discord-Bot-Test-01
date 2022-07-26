@@ -1,4 +1,4 @@
-worker: python3.9 Bot.py
+worker: python Bot.py
 Aptfile
 libopus0
 git
